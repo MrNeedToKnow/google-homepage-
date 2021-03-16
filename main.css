@@ -1,0 +1,57 @@
+.navbarmain{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.navbarleft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.navbarright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dots {
+    width: 25px;
+    height: auto;
+    border-radius: 50%;
+    padding: 8px;
+}
+.dots:hover{
+    background-color: rgba(60,64,67,0.08);
+}
+
+.airplane{
+width: 33px;
+height: 33px;
+border-radius: 50%;
+
+}
+
+nav{
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #222;
+}
+
+a{
+    padding: 5px;
+    margin: 0 5px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #222;
+    text-decoration: none; 
+}
+ a:hover{
+    text-decoration: underline;
+}
