@@ -1,31 +1,30 @@
 .navbarmain{
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
     justify-content: space-between;
-    padding-top: 5px;
-    padding-bottom: 5px;
-
+    padding-top: 8px;
+    
 }
 
 .navbarleft{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 13px;
 }
 
 .navbarright{
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-right: 10px;
 }
 
 .dots {
     width: 25px;
     height: auto;
     border-radius: 50%;
-    padding: 8px;
+    padding: 8px 8px;
 }
 .dots:hover{
     background-color: rgba(60,64,67,0.08);
@@ -35,18 +34,15 @@
 width: 33px;
 height: 33px;
 border-radius: 50%;
-
+padding: 5px 5px;
 }
 
-nav{
-    font-family: arial, sans-serif;
-    font-size: 14px;
-    color: #222;
+.airplane:hover{
+    background-color: rgba(60,64,67,0.08);
 }
 
 a{
-    padding: 5px;
-    margin: 0 5px;
+    padding:0px 8px;
     font-family: arial, sans-serif;
     font-size: 14px;
     color: #222;
@@ -54,4 +50,55 @@ a{
 }
  a:hover{
     text-decoration: underline;
+}
+
+.center{
+display: grid;
+grid-template-columns: 100%;
+grid-template-rows: 100%
+border: 1px solid black;
+}
+
+.logo{
+    justify-self: center;
+    align-self: end;
+    height: 200px;
+    display: flex;
+    
+}
+
+.logo1{
+ align-self: end;
+
+}
+
+.searchbar{
+    justify-self: center;
+    align-self: bottom;
+    padding-top: 10px;
+}
+
+.searchbar1{
+    width: 450px;
+    border-radius: 24px;
+    height: 34px;
+    border:1px solid #dfe1e5;
+}
+
+.buttonmain{
+    justify-self: center;
+    align-self: end;
+    padding-top: 25px;
+}
+
+button{
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border: 1px solid #f8f9fa;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding: 11px 16px;
+    margin: 0px 6px;
+
+    
 }
